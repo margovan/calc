@@ -1,9 +1,14 @@
 </body>
-  <FORM NAME="Calc">
-<TABLE BODY style="width:200px color:#f56973" BORDER=2 >
-
+<FORM NAME="Calc">
+<TABLE BORDER=4 style="color:#f56973">
+<TR>
+<TD>
 <INPUT TYPE="text"   NAME="Input" Size="16">
 <br>
+</TD>
+</TR>
+<TR>
+<TD>
 <INPUT TYPE="button" style="background-color:#ffbabf" NAME="one"   VALUE="  1  " OnClick="Calc.Input.value += '1'">
 <INPUT TYPE="button" style="background-color:#ffbabf" NAME="two"   VALUE="  2  " OnCLick="Calc.Input.value += '2'">
 <INPUT TYPE="button" style="background-color:#ffbabf" NAME="three" VALUE="  3  " OnClick="Calc.Input.value += '3'">
@@ -23,7 +28,9 @@
 <INPUT TYPE="button" style="background-color:#ffbabf" NAME="zero"  VALUE="  0  " OnClick="Calc.Input.value += '0'">
 <INPUT TYPE="button" style="background-color:#8c4a4f" NAME="DoIt"  VALUE="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)">
 <INPUT TYPE="button" style="background-color:#8c4a4f" NAME="div"   VALUE="  /  " OnClick="Calc.Input.value += ' / '">
-
+<br>
+</TD>
+</TR>
 </TABLE>
 </FORM>
 </body>
